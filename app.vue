@@ -158,18 +158,17 @@
       <div class="relative">
         <img src="./assets/bg.svg" />
         <div class="max-w-6xl mx-auto">
-          <div class="absolute top-0  px-20 text-white grid grid-cols-3 gap-3 justify-center items w-max mx-auto ">
-
-
-          
+          <div
+            class="absolute top-0 px-20 text-white grid grid-cols-3 gap-3 justify-center items w-max mx-auto"
+          >
             <div class="bg-white/5 border-orange-500 border p-3 rounded-lg">
               <p>Created by</p>
-             <div class="flex items-start justify-start">
-              <div class="flex items-center justify-center gap-2">
-                <div class="rounded-full bg-white h-4 w-4"></div>
-                <p>James Watson</p>
+              <div class="flex items-start justify-start">
+                <div class="flex items-center justify-center gap-2">
+                  <div class="rounded-full bg-white h-4 w-4"></div>
+                  <p>James Watson</p>
+                </div>
               </div>
-             </div>
               <div>
                 <img src="./assets/Frame 1261152802.png" class="mb-3" />
                 <h1>Nfts Collections</h1>
@@ -178,12 +177,12 @@
             </div>
             <div class="bg-white/5 border-orange-500 border p-3 rounded-lg">
               <p>Created by</p>
-             <div class="flex items-start justify-start">
-              <div class="flex items-center justify-center gap-2">
-                <div class="rounded-full bg-white h-4 w-4"></div>
-                <p>James Watson</p>
+              <div class="flex items-start justify-start">
+                <div class="flex items-center justify-center gap-2">
+                  <div class="rounded-full bg-white h-4 w-4"></div>
+                  <p>James Watson</p>
+                </div>
               </div>
-             </div>
               <div>
                 <img src="./assets/Frame 1261152802.png" class="mb-3" />
                 <h1>Nfts Collections</h1>
@@ -192,12 +191,12 @@
             </div>
             <div class="bg-white/5 border-orange-500 border p-3 rounded-lg">
               <p>Created by</p>
-             <div class="flex items-start justify-start">
-              <div class="flex items-center justify-center gap-2">
-                <div class="rounded-full bg-white h-4 w-4"></div>
-                <p>James Watson</p>
+              <div class="flex items-start justify-start">
+                <div class="flex items-center justify-center gap-2">
+                  <div class="rounded-full bg-white h-4 w-4"></div>
+                  <p>James Watson</p>
+                </div>
               </div>
-             </div>
               <div>
                 <img src="./assets/Frame 1261152802.png" class="mb-3" />
                 <h1>Nfts Collections</h1>
@@ -206,12 +205,12 @@
             </div>
             <div class="bg-white/5 border-orange-500 border p-3 rounded-lg">
               <p>Created by</p>
-             <div class="flex items-start justify-start">
-              <div class="flex items-center justify-center gap-2">
-                <div class="rounded-full bg-white h-4 w-4"></div>
-                <p>James Watson</p>
+              <div class="flex items-start justify-start">
+                <div class="flex items-center justify-center gap-2">
+                  <div class="rounded-full bg-white h-4 w-4"></div>
+                  <p>James Watson</p>
+                </div>
               </div>
-             </div>
               <div>
                 <img src="./assets/Frame 1261152802.png" class="mb-3" />
                 <h1>Nfts Collections</h1>
@@ -220,12 +219,12 @@
             </div>
             <div class="bg-white/5 border-orange-500 border p-3 rounded-lg">
               <p>Created by</p>
-             <div class="flex items-start justify-start">
-              <div class="flex items-center justify-center gap-2">
-                <div class="rounded-full bg-white h-4 w-4"></div>
-                <p>James Watson</p>
+              <div class="flex items-start justify-start">
+                <div class="flex items-center justify-center gap-2">
+                  <div class="rounded-full bg-white h-4 w-4"></div>
+                  <p>James Watson</p>
+                </div>
               </div>
-             </div>
               <div>
                 <img src="./assets/Frame 1261152802.png" class="mb-3" />
                 <h1>Nfts Collections</h1>
@@ -234,24 +233,297 @@
             </div>
             <div class="bg-white/5 border-orange-500 border p-3 rounded-lg">
               <p>Created by</p>
-             <div class="flex items-start justify-start">
-              <div class="flex items-center justify-center gap-2">
-                <div class="rounded-full bg-white h-4 w-4"></div>
-                <p>James Watson</p>
+              <div class="flex items-start justify-start">
+                <div class="flex items-center justify-center gap-2">
+                  <div class="rounded-full bg-white h-4 w-4"></div>
+                  <p>James Watson</p>
+                </div>
               </div>
-             </div>
               <div>
                 <img src="./assets/Frame 1261152802.png" class="mb-3" />
                 <h1>Nfts Collections</h1>
                 <p>created by James Watson</p>
               </div>
             </div>
-            
-            
-         
+          </div>
         </div>
+        <div
+          class="absolute bottom-0 text-white w-full flex items-center justify-center"
+        >
+          <button
+            class="h-fit w-fit p-4 bg-white/10 rounded-xl border border-orange-500"
+          >
+            Explore More
+          </button>
         </div>
       </div>
     </section>
+    <!-- slide 4 -->
+    <section>
+      <div class="h-full w-full bg-black -mt-2 p-5">
+        <div class="text-white mt-20">
+          <h1 class="text-center text-3xl font-bold">Top creators</h1>
+          <p class="text-center mt-4">
+            Checkout Top Rated Creators On The NFT Marketplace
+          </p>
+        </div>
+        <div class="max-w-4xl mx-auto">
+          <div class="mt-20 grid grid-cols-4 gap-3">
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+            <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
+              <div
+                class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
+              >
+                1
+              </div>
+              <div>
+                <img src="./assets/founder/Ellipse 134.png" class="scale-75" />
+              </div>
+              <div class="text-white text-center">
+                <h1>Name NFT</h1>
+                <p class="font-thin text-xs scale-110">
+                  <span class="text-xs text-[#46453f]">Total sales : </span
+                  >34.53 ETH
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-white mt-20 text-3xl font-bold flex justify-center items-center mb-20"
+        >
+          <h1>Road Map</h1>
+        </div>
+      </div>
+    </section>
+    <!-- slide 5 -->
+    <section>
+      <div class="relative">
+        <div><img src="./assets/bg.svg" alt="" /></div>
+        <div class="absolute p-10 top-0">
+          <div class="flex items-center">
+            <div >
+              <div class="h-full w-[400px] text-white border border-orange-400/25 rounded-lg px-7 py-2">
+                <h1 class="text-center">January</h1>
+                <h2 class="text-2xl font-bold">Brief</h2>
+                <p class="mt-5">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maiores tenetur impedit quidem dolore labore sed veritatis
+                  architecto expedita error harum.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/golden_border.png" class="absolute -top-[12px] left-[270px] scale-75" >
+            </div>
+          </div>
+          <div class="flex items-center mt-36">
+            <div >
+              <div class="h-full w-[400px] text-white border border-orange-400/25 rounded-lg px-7 py-2">
+                <h1 class="text-center">January</h1>
+                <h2 class="text-2xl font-bold">Brief</h2>
+                <p class="mt-5">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maiores tenetur impedit quidem dolore labore sed veritatis
+                  architecto expedita error harum.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/golden_border.png" class="absolute top-[320px] left-[270px] scale-75" >
+            </div>
+          </div>
+          <div class="flex items-center mt-36">
+            <div >
+              <div class="h-full w-[400px] text-white border border-orange-400/25 rounded-lg px-7 py-2">
+                <h1 class="text-center">January</h1>
+                <h2 class="text-2xl font-bold">Brief</h2>
+                <p class="mt-5">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maiores tenetur impedit quidem dolore labore sed veritatis
+                  architecto expedita error harum.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/golden_border.png" class="absolute top-[655px] left-[270px] scale-75" >
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="absolute p-10 top-0">
+          <div class="flex items-center">
+            <div >
+              <div class="h-full w-[400px] text-white border border-orange-400/25 rounded-lg px-7 py-2">
+                <h1 class="text-center">January</h1>
+                <h2 class="text-2xl font-bold">Brief</h2>
+                <p class="mt-5">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maiores tenetur impedit quidem dolore labore sed veritatis
+                  architecto expedita error harum.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/golden_border.png" class="absolute -top-[12px] left-[270px] scale-75" >
+            </div>
+          </div>
+          <div class="flex items-center mt-36">
+            <div >
+              <div class="h-full w-[400px] text-white border border-orange-400/25 rounded-lg px-7 py-2">
+                <h1 class="text-center">January</h1>
+                <h2 class="text-2xl font-bold">Brief</h2>
+                <p class="mt-5">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maiores tenetur impedit quidem dolore labore sed veritatis
+                  architecto expedita error harum.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/golden_border.png" class="absolute top-[320px] left-[270px] scale-75" >
+            </div>
+          </div>
+          <div class="flex items-center mt-36">
+            <div >
+              <div class="h-full w-[400px] text-white border border-orange-400/25 rounded-lg px-7 py-2">
+                <h1 class="text-center">January</h1>
+                <h2 class="text-2xl font-bold">Brief</h2>
+                <p class="mt-5">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maiores tenetur impedit quidem dolore labore sed veritatis
+                  architecto expedita error harum.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/golden_border.png" class="absolute top-[655px] left-[270px] scale-75" >
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+    
   </div>
 </template>

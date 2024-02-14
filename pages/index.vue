@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black">
+  <div class="bg-black max-w-[1600px] mx-auto">
     <!-- Navbar -->
     <section>
       <div
@@ -7,36 +7,77 @@
       >
         <div>LogoHere</div>
         <div class="lg:hidden">
-          <i class="fa-solid fa-bars"></i>
+          <i @click="hamburger()" class="fa-solid fa-bars"></i>
         </div>
         <div class="hidden lg:flex items-center gap-28">
-          <ul class="flex items-center gap-4 text-nowrap">
+          <ul class="flex items-center gap-4 text-nowrap cursor-pointer">
             <li>About</li>
             <li>Collection</li>
             <li>Creater</li>
             <li>Road Map</li>
           </ul>
           <button
-            class="bg-[#da904f] h-10 w-full p-3 rounded-lg flex items-center justify-center border-2 border-white"
+            class="bg-[#da904f] hover:transition h-10 w-full p-3 rounded-lg flex items-center justify-center border-2 border-white hover:scale-110 hover:bg-orange-700 hover:ease-in-out duration-300 delay-100"
           >
             Sign in
           </button>
+        </div>
+      </div>
+      <div v-if="isClick">
+        <div
+          class="fixed top-0 left-0 bg-white h-screen transition ease-in-out duration-300 delay-150 z-[50]"
+          :class="{
+            'w-[300px] ': !isClick,
+            '-w-full': isClick,
+          }"
+        >
+          <div class="flex items-center justify-between gap-5 p-10">
+            <div class="text-black text-2xl">Logo</div>
+            <div>
+              <i
+                @click="isClick = !isClick"
+                class="fa-solid fa-x text-black"
+              ></i>
+            </div>
+          </div>
+          <div class="text-black grid items-center justify-center gap-10">
+            <ul class="grid items-center justify-center text-center gap-5">
+              <li>About</li>
+              <li>Collection</li>
+              <li>Creator</li>
+              <li>Road Map</li>
+            </ul>
+            <button
+              class="bg-orange-500 h-fit w-[100px] rounded-lg ring-2 ring-offset-2 ring-black text-white p-3"
+            >
+              Sign in
+            </button>
+          </div>
         </div>
       </div>
     </section>
     <!-- Navbar -->
     <!-- slide  1-->
     <section>
-      <div>
-        <div class="bg-[url('/bg.svg')]">
+      <div class="">
+        <div class="bg-[url('/bg.svg')]    ">
+          <!-- opacity -->
+          
           <!-- <img src="./assets/bg.svg" class="w-full" /> -->
           <div class="p-10 md:p-20">
             <div class="md:grid grid-cols-2 gap-10 justify-center items-center">
               <div class="mt-10 text-white">
-                <h1 class="text-3xl font-bold">
+                <h1 class="text-3xl font-bold xl:text-7xl">
                   We Have High Quality
-                  <span class="text-[#da904f]">NFT</span> Collections
+                  <div
+                    class="size-10 flex items-center justify-between gap-20 md:size-20"
+                  >
+                    <span class="text-[#da904f]">NFT</span>
+                    <img src="/filled_star.svg" alt="" />
+                  </div>
+                  Collections
                 </h1>
+
                 <p class="mt-5">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Facere nihil minima libero earum laudantium tempora. Quos
@@ -45,19 +86,25 @@
                 </p>
                 <div class="flex items-center gap-10 mt-10">
                   <button
-                    class="h-10 w-[150px] p-3 flex items-center justify-center text-nowrap bg-[#da904f] rounded-2xl"
+                    class="h-10 w-[150px] p-3 flex items-center justify-center text-nowrap bg-[#da904f] rounded-2xl hover:transition hover:ease-in-out hover:duration-300 delay-10000 hover:scale-110"
                   >
                     Get Whitelist
                   </button>
                   <button
-                    class="h-10 w-[150px] p-3 flex items-center justify-center text-nowrap bg-transparent border-2 border-white rounded-2xl"
+                    class="h-10 w-[150px] p-3 flex items-center justify-center text-nowrap bg-transparent border-2 border-white rounded-2xl  hover:transition hover:ease-in-out hover:duration-300 delay-10000 hover:scale-110"
                   >
                     Contact
                   </button>
                 </div>
               </div>
-              <div class="mt-10">
-                <img src="/tiger_hero.png" />
+              <div class="mt-10 relative">
+                <img src="/tiger_hero.png " />
+                <img src="/star.svg" class="size-10" />
+                <div
+                  class="cursor-pointer text-white absolute right-0 h-20 top-56 border-t-2 border-r-2 border-b-2 p-3 lg:h-56 flex items-center justify-center rounded-e-lg lg:top-64 lg:right-10"
+                >
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
               </div>
             </div>
             <div
@@ -82,7 +129,7 @@
     </section>
     <!-- About us slide -->
     <div
-      class="md:h-40 text-2xl h-20 bg-black w-full text-white flex items-center justify-center"
+      class="text-xl md:h-40 md:text-2xl h-20 bg-black w-full text-white flex items-center justify-center"
     >
       <h1>About us</h1>
     </div>
@@ -90,10 +137,10 @@
     <!-- slide 2 -->
     <section>
       <div
-        class="bg-[#150e08] w-full p-2  :md:grid items-center justify-between lg:gap-10 lg:py-3 md:grid grid-cols-2 px-5"
+        class="bg-[#150e08] w-full p-2 :md:grid items-center justify-between gap-5 lg:gap-10 lg:py-3 md:grid grid-cols-2 px-5"
       >
         <div
-          class=" flex flex-col gap-5 md:grid grid-cols-2 w-full md:gap-10 xl:p-3"
+          class="flex flex-col gap-5 md:grid grid-cols-2 w-full md:gap-10 xl:p-3"
         >
           <img
             src="/image 104.png"
@@ -117,7 +164,7 @@
           />
         </div>
         <div
-          class="text-white tracking-tighter mt-10 md:text-white flex flex-col items-center justify-center "
+          class="text-white tracking-tighter mt-10 md:text-white flex flex-col items-center justify-center"
         >
           <div>
             <p>
@@ -140,7 +187,7 @@
             </p>
           </div>
           <button
-            class="mt-10 bg-white/20 h-fit w-fit p-3 rounded-xl border-orange-400 border-2"
+            class="mt-10 bg-white/20 h-fit w-fit p-3 rounded-xl border-orange-400 border-2  hover:transition hover:ease-in-out hover:duration-300 delay-10000 hover:scale-110"
           >
             Connect Wallet
           </button>
@@ -149,8 +196,12 @@
     </section>
     <!-- top collections -->
     <div
-      class="bg-black h-48 w-full text-white flex items-center justify-center"
+      class="bg-black h-48 w-full text-white flex items-center justify-center relative"
     >
+      <div
+        class="absolute bottom-0 left-0 bg-white rounded-t-full rounded-b-none h-10 w-20 blur-3xl"
+      ></div>
+
       <div>
         <h1
           class="text-2xl flex items-center justify-center md:text-5xl font-bold"
@@ -270,7 +321,7 @@
         </div>
         <div class="text-white w-full flex items-center justify-center">
           <button
-            class="h-fit w-fit p-4 bg-white/10 rounded-xl border border-orange-500"
+            class="h-fit w-fit p-4 bg-white/10 rounded-xl border border-orange-500  hover:transition hover:ease-in-out hover:duration-300 delay-10000 hover:scale-110"
           >
             Explore More
           </button>
@@ -279,15 +330,27 @@
     </section>
     <!-- slide 4 -->
     <section>
-      <div class="h-full w-full bg-black -mt-2 p-5">
+      <div class="h-full w-full bg-black -mt-2 p-5 relative">
+        <div
+          class="absolute top-0 right-0 bg-white rounded-t-full rounded-b-none h-10 w-20 blur-3xl"
+        ></div>
+
+        <div
+          class="absolute bottom-0 left-0 bg-white rounded-t-full rounded-b-none h-10 w-20 blur-3xl"
+        ></div>
+
         <div class="text-white mt-20">
           <h1 class="text-center text-3xl font-bold">Top creators</h1>
           <p class="text-center mt-4">
             Checkout Top Rated Creators On The NFT Marketplace
           </p>
         </div>
-        <div class="grid justify-center items-center mt-5 md:max-w-4xl mx-auto xl:scale-110 ">
-          <div class="grid grid-cols-1 md:mt-20 md:grid md:grid-cols-2 gap-3 lg:grid-cols-4">
+        <div
+          class="grid justify-center items-center mt-5 md:max-w-4xl mx-auto xl:scale-110"
+        >
+          <div
+            class="grid grid-cols-1 md:mt-20 md:grid md:grid-cols-2 gap-3 lg:grid-cols-4"
+          >
             <div class="h-fit w-[200px] bg-white/10 p-5 rounded-xl">
               <div
                 class="h-4 w-4 bg-gray-600 text-white rounded-full flex items-center justify-center text-xs"
@@ -529,7 +592,24 @@
     </section>
     <!-- slide 6 -->
     <section>
-      <div class="bg-black -mt-5 md:max-w-full mx-auto p-10">
+      <div class="bg-black -mt-5 md:max-w-full mx-auto p-10 relative">
+        <div
+        class="absolute top-0 right-0 bg-white rounded-t-full rounded-b-none h-10 w-20 blur-3xl"
+      ></div>
+
+      <div
+        class="absolute bottom-0 left-0 bg-white rounded-t-full rounded-b-none h-10 w-20 blur-3xl"
+      ></div>
+      <div
+      class="absolute bottom-72 right-0 bg-white rounded-t-full rounded-b-none h-10 w-20  blur-3xl"
+    ></div>
+    <div
+    class="absolute bottom-72 left-0 bg-white rounded-t-full rounded-b-none h-10 w-20  blur-3xl md:hidden"
+  ></div>
+
+    <div
+      class="absolute bottom-0 left-0 bg-white rounded-t-full rounded-b-none h-10 w-20 blur-3xl"
+    ></div>
         <div
           class="text-white flex items-center justify-center pt-20 font-bold text-4xl"
         >
@@ -597,11 +677,13 @@
     <!-- slide 7 -->
     <section>
       <div class="bg-[url('/bg.svg')] h-full py-5 md:px-20 w-full px-10">
-        <div >
+        <div>
           <div class="text-white text-center font-bold text-2xl">
             <h1>Join OurCommunity</h1>
           </div>
-          <div class="text-white md:tracking-tight md:text-justify mt-10 lg:px-20 xl:px-56">
+          <div
+            class="text-white md:tracking-tight md:text-justify mt-10 lg:px-20 xl:px-56"
+          >
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
               at reiciendis nam quas porro cupiditate non deserunt iure, alias
@@ -610,14 +692,16 @@
               rerum error iusto?
             </p>
           </div>
-          <div class="mt-10 grid md:flex justify-between w-full gap-10  lg:justify-center ">
+          <div
+            class="mt-10 grid md:flex justify-between w-full gap-10 lg:justify-center"
+          >
             <input
               type="email"
               placeholder="Your Email"
               class="w-full lg:w-[500px] xl:w-[700px] h-10 rounded-3xl p-5 font-thin"
             />
             <button
-              class="text-white h-10 w-fit bg-white/55 p-5 flex justify-center items-center rounded-3xl ring-2 ring-offset-2 ring-orange-400 text-nowrap"
+              class="text-white h-10 w-fit bg-white/55 p-5 flex justify-center items-center rounded-3xl ring-2 ring-offset-2 ring-orange-400 text-nowrap  hover:transition hover:ease-in-out hover:duration-300 delay-10000 hover:scale-110"
             >
               Join now
             </button>
@@ -678,7 +762,13 @@ export default {
           },
         ],
       ],
+      isClick: false,
     };
+  },
+  methods: {
+    hamburger() {
+      this.isClick = !this.isClick;
+    },
   },
 };
 </script>

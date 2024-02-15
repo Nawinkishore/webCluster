@@ -723,36 +723,36 @@ export default {
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam ex ea cumque incidunt eius dolorum eum, porro eaque nobis labore voluptate minima consequatur velit et commodi suscipit temporibus molestias.",
           },
           {
-            month: "January",
-            title: "Brief",
+            month: "February",
+            title: "Research",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam ex ea cumque incidunt eius dolorum eum, porro eaque nobis labore voluptate minima consequatur velit et commodi suscipit temporibus molestias.",
           },
         ],
         [
           {
-            month: "January",
-            title: "Brief",
+            month: "March",
+            title: "Discover",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam ex ea cumque incidunt eius dolorum eum, porro eaque nobis labore voluptate minima consequatur velit et commodi suscipit temporibus molestias.",
           },
           {
-            month: "January",
-            title: "Brief",
+            month: "April",
+            title: "Design",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam ex ea cumque incidunt eius dolorum eum, porro eaque nobis labore voluptate minima consequatur velit et commodi suscipit temporibus molestias.",
           },
         ],
         [
           {
-            month: "January",
-            title: "Brief",
+            month: "May",
+            title: "Testing",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam ex ea cumque incidunt eius dolorum eum, porro eaque nobis labore voluptate minima consequatur velit et commodi suscipit temporibus molestias.",
           },
           {
-            month: "January",
-            title: "Brief",
+            month: "June",
+            title: "Launch & Feedback",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam ex ea cumque incidunt eius dolorum eum, porro eaque nobis labore voluptate minima consequatur velit et commodi suscipit temporibus molestias.",
           },

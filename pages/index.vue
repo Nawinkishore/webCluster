@@ -100,11 +100,7 @@
               <div class="mt-10 relative">
                 <img src="/tiger_hero.png " />
                 <img src="/star.svg" class="size-10" />
-                <div
-                  class="cursor-pointer text-white absolute right-0 h-20 top-56 border-t-2 border-r-2 border-b-2 p-3 lg:h-56 flex items-center justify-center rounded-e-lg lg:top-64 lg:right-10"
-                >
-                  <i class="fa-solid fa-chevron-right"></i>
-                </div>
+                
               </div>
             </div>
             <div

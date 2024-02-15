@@ -689,7 +689,7 @@
             </p>
           </div>
           <div
-            class="mt-10 grid md:flex justify-between w-full gap-10 lg:justify-center"
+            class="gap-5 mt-10 grid md:flex justify-between w-full md:gap-10 lg:justify-center"
           >
             <input
               type="email"
@@ -697,7 +697,7 @@
               class="w-full lg:w-[500px] xl:w-[700px] h-10 rounded-3xl p-5 font-thin"
             />
             <button
-              class="text-white h-10 w-fit bg-white/55 p-5 flex justify-center items-center rounded-3xl ring-2 ring-offset-2 ring-orange-400 text-nowrap  hover:transition hover:ease-in-out hover:duration-300 delay-10000 hover:scale-110"
+              class="text-white h-10 w-fit bg-white/55 p-5 flex justify-center items-center rounded-3xl ring-2 ring-offset-2 ring-orange-400 text-nowrap  hover:transition hover:ease-in-out hover:duration-300 delay-100 hover:scale-110"
             >
               Join now
             </button>
